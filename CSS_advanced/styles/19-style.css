@@ -52,22 +52,22 @@ html {
     --section-tagline-margin: 0;
 }
 
-.row .ul {
+ul.row {
     margin: 0;
     padding: none;
     list-style: none;
 }
 
 .col-1-3 {
-    width: 0.3333rem;
+    width: 33.33%;
     float: left;
-    padding: 0.50rem;
+    padding: 0.5rem;
 }
 
 .col-1-2 {
-    width: 0.50rem;
+    width: 50%;
     float: left;
-    padding: 0.50rem;
+    padding: 0.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -157,11 +157,11 @@ a:active {
 }
 
 .footer-copyright {
-    margin: none;
+    margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
-.footer .ul {
+.footer ul {
     text-align: right;
 }
 
