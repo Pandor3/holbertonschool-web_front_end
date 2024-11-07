@@ -59,7 +59,7 @@ ul.row {
 }
 
 .row::after {
-    content: none;
+    content: 0;
     display: table;
     clear: both;
 }
