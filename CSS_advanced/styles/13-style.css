@@ -44,18 +44,17 @@ body {
 a {
     color: var(--text-color);
     text-decoration: none;
-    
 }
 
-a:visited {
+a[href]:visited {
     font: italic;
 }
 
-a:hover {
+a[href]:hover {
     text-decoration: underline;
 }
 
-a:active {
+a[href]:active {
     color: var(--color-light-grey);
 }
 
