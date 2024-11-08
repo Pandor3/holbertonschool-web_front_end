@@ -179,7 +179,7 @@ a:active {
     overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -198,7 +198,7 @@ a:active {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.card-work .card-title {
+.card-work .card-title a {
     text-align: center;
     margin: 0;
     opacity: 0;
@@ -206,7 +206,7 @@ a:active {
     position: relative;
 }
 
-.card-work::after .card-title::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
