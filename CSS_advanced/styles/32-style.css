@@ -388,7 +388,7 @@ a:active {
     color: var(--button-hover-color) var(--transition-cubic-bezier);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background) var(--transition-cubic-bezier);
-    transition: var(--transition-duration);
+    transition-property: var(--transition-duration);
 }
 
 .header {
