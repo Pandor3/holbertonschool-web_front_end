@@ -180,11 +180,10 @@ a:active {
 }
 
 .card-work .card-image img {
-    position: absolute;
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    bottom: 0;
+    vertical-align: bottom;
 }
 
 .card-work .card-inner {
